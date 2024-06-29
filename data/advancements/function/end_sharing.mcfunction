@@ -1,0 +1,9 @@
+execute if entity @a[advancements={end/root=true}] run advancement grant @a[advancements={end/root=false}] only end/root
+execute if entity @a[advancements={end/kill_dragon=true}] run advancement grant @a[advancements={end/kill_dragon=false}] only end/kill_dragon
+execute if entity @a[advancements={end/dragon_egg=true}] run advancement grant @a[advancements={end/dragon_egg=false}] only end/dragon_egg
+execute if entity @a[advancements={end/enter_end_gateway=true}] run advancement grant @a[advancements={end/enter_end_gateway=false}] only end/enter_end_gateway
+execute if entity @a[advancements={end/respawn_dragon=true}] run advancement grant @a[advancements={end/respawn_dragon=false}] only end/respawn_dragon
+execute if entity @a[advancements={end/dragon_breath=true}] run advancement grant @a[advancements={end/dragon_breath=false}] only end/dragon_breath
+execute if entity @a[advancements={end/find_end_city=true}] run advancement grant @a[advancements={end/find_end_city=false}] only end/find_end_city
+execute if entity @a[advancements={end/elytra=true}] run advancement grant @a[advancements={end/elytra=false}] only end/elytra
+execute if entity @a[advancements={end/levitate=true}] run advancement grant @a[advancements={end/levitate=false}] only end/levitate
