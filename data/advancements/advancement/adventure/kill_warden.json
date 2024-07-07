@@ -1,0 +1,22 @@
+{
+    "parent" : "minecraft:adventure/avoid_vibration",
+    "display": {
+        "frame": "goal",
+        "icon": {
+            "id": "minecraft:sculk_shrieker"
+        },
+        "title": "深淵の征服者",
+        "description" : "ウォーデンを倒す"
+    },
+    "criteria" : {
+        "requirement" : {
+            "trigger" : "minecraft:player_killed_entity",
+            "conditions" : {
+                "entity" : {
+                    "type" : "minecraft:warden"
+                }
+            }
+        }
+    },
+    "sends_telemetry_event": true
+}
